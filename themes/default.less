@@ -1,0 +1,133 @@
+@import "./common/global.less";
+
+.rs-view {
+  width: 100%;
+  background: #fff;
+  // overflow-y: scroll;
+  padding: 20px 40px;
+
+  .header {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    color: var(--bg);
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .block {
+    margin-top: 7px
+  }
+  .block::before {
+    display: block;
+    content: "";
+    height: 0;
+    clear: both;
+  }
+  .block::after {
+    display:block;
+    content: "";
+    height: 0;
+    clear: both;
+  }
+
+  .title {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+
+  .right {
+    float: right;
+    width: 50%;
+    // flex: 1;
+    text-align: right;
+  }
+  p {
+    // padding-right: 8px;
+    margin-right: 8px;
+    display: block;
+    line-height: 18px;
+    font-size: 14px;
+    color: #747474;
+    margin-top: 4px;
+    margin-bottom: 0px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 20px;
+    color: var(--bg);
+    border-bottom: 1px solid var(--bg);
+    margin-top: 10px;
+  }
+
+  h3 {
+    margin: 7px 0;
+    font-size: 14px;
+  }
+
+  ul {
+    margin: 0 10px;
+  }
+
+  li {
+    font-size: 13px;
+    margin-top: 4px;
+    color: #747474;
+    list-style: square inside;
+  }
+  li ul {
+    margin: 0 50px;
+  }
+
+  li ul li {
+    list-style: decimal;
+  }
+  .icon {
+    fill: #747474;
+  }
+  a {
+    color: #747474;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    -webkit-text-decoration-skip: objects;
+  }
+  a:hover {
+    color: rgb(97, 97, 97);
+  }
+  a:active {
+    color:rgb(97, 97, 97);
+  }
+  a:active,
+  a:hover {
+    text-decoration: none;
+    outline: 0;
+  }
+  a:focus {
+    text-decoration: none;
+    outline: 0;
+  }
+  a[disabled] {
+    color: rgba(255, 255, 255, 0.25);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
