@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from "react";
 import { Menu, Dropdown } from "antd";
 
@@ -85,6 +86,7 @@ const HeaderBar = () => {
       <div className="rs-header-bar__right">
         <a
           className="ant-dropdown-link rs-link"
+          rel="noreferrer"
           href="https://github.com/mrhanson/react-resume-site"
           target="_blank"
           dangerouslySetInnerHTML={{
