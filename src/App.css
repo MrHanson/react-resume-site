@@ -18,6 +18,11 @@ html, body {
   height: calc(100% - 30px)
 }
 
+.rs-preview {
+  width: 794px;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: 'pingfang-sc';
   src: url('https://s3.qiufengh.com/muji/font/PingFang-Medium.ttf');

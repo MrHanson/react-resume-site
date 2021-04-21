@@ -40,6 +40,15 @@ markdownParserResume
         }
 
     })
+    .use(MdContainer, 'center', {
+        render: function (tokens: any, idx: any) {
+            if (tokens[idx].nesting === 1) {
+                return '<div class="center">';
+            } else {
+                return '</div>'
+            }
+        }
+    })
     .use(MdContainer, 'title')
 
 export function downloadDirect(url: string, name: string) {

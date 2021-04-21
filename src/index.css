@@ -246,7 +246,7 @@ body {
 }
 
 .message {
-  margin-top: 15px;
+  margin-top: 7px
 }
 
 .school {
@@ -385,12 +385,12 @@ body {
 }
 
 .item-li {
-  margin-top: 8px;
+  margin-top: 4px;
   list-style: square inside;
 }
 
 .item-p {
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .con-right {

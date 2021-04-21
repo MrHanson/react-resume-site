@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -21,21 +17,11 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@utils/*": [
-        "src/utils/*"
-      ],
-      "@pages/*": [
-        "src/pages/*"
-      ],
-      "@src/*": [
-        "src/*"
-      ],
-      "@public/*": [
-        "public/*"
-      ],
-    },
+      "@utils/*": ["src/utils/*"],
+      "@pages/*": ["src/pages/*"],
+      "@src/*": ["src/*"],
+      "@public/*": ["public/*"]
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

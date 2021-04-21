@@ -1,14 +1,16 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import CodeMirror from "@uiw/react-codemirror";
 import debounce from "lodash-es/debounce";
 import { useStores } from "@src/store";
-import { setMdEditorRef, globalEditorCountIncrease, globalEditorCount, setHtmlView } from "@src/utils/global";
-import { LOCAL_STORE } from '@src/utils/const';
+import {
+  setMdEditorRef,
+  globalEditorCountIncrease,
+  globalEditorCount,
+  setHtmlView,
+} from "@src/utils/global";
+import { LOCAL_STORE } from "@src/utils/const";
 
-
-interface Props {
-
-}
+interface Props {}
 
 type TimerSave = number | null;
 
@@ -21,7 +23,7 @@ const Editor: React.FC<Props> = (props) => {
     // 由于子元素是 useEffect 中初始化，因此正常无法获取，需要延迟
     setTimeout(() => {
       setMdEditorRef(editorRef.current?.editor);
-    })
+    });
   }, []);
 
   return (
@@ -38,7 +40,7 @@ const Editor: React.FC<Props> = (props) => {
       onChange={debounce((editor: any) => {
         // 用于计算是否修改，减少游客直接下载而对后端的压力
         if (globalEditorCount >= 2) {
-          localStorage.setItem(LOCAL_STORE.MD_COUNT, '999');
+          localStorage.setItem(LOCAL_STORE.MD_COUNT, "999");
         } else if (globalEditorCount === 1 || globalEditorCount === 0) {
           globalEditorCountIncrease();
         }

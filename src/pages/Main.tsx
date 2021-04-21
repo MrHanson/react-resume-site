@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import SplitPane from 'react-split-pane';
-import Editor from './Editor';
-import View from './View';
-import './Main.less';
-import ColorPicker from './ColorPicker';
-import Shortcuts from '@src/components/Shortcuts';
-import OnePage from '@src/components/OnePage';
+// import React from "react";
+import SplitPane from "react-split-pane";
+import Editor from "./Editor";
+import View from "./View";
+import "./Main.less";
+import ColorPicker from "./ColorPicker";
+import Shortcuts from "@src/components/Shortcuts";
+import OnePage from "@src/components/OnePage";
 
 const Main = () => {
   return (

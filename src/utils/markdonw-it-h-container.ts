@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import MarkdownIt from 'markdown-it'
 
 export default function (md: MarkdownIt) {
@@ -48,7 +49,6 @@ export default function (md: MarkdownIt) {
     (new Array(5).fill(0)).forEach((_, index) => {
         console.log(`container_div_${index + 1}_open`, '==');
         md.renderer.rules[`container_div_${index + 1}_open`] = function (tokens, idx, _options, env, slf) {
-            console.log('render');
             if (tokens[idx].nesting === 1) {
                 tokens[idx].attrJoin('class', `h${index + 1}_block`);
                 tokens[idx].attrJoin('class', `block`);
