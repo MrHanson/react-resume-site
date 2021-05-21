@@ -13,8 +13,8 @@
     "static/js/5.40e95d79.chunk.js": "/react-resume-site/static/js/5.40e95d79.chunk.js",
     "static/js/5.40e95d79.chunk.js.map": "/react-resume-site/static/js/5.40e95d79.chunk.js.map",
     "main.css": "/react-resume-site/static/css/main.ea5025ba.chunk.css",
-    "main.js": "/react-resume-site/static/js/main.e36cd1fa.chunk.js",
-    "main.js.map": "/react-resume-site/static/js/main.e36cd1fa.chunk.js.map",
+    "main.js": "/react-resume-site/static/js/main.76761745.chunk.js",
+    "main.js.map": "/react-resume-site/static/js/main.76761745.chunk.js.map",
     "runtime-main.js": "/react-resume-site/static/js/runtime-main.004a0bd9.js",
     "runtime-main.js.map": "/react-resume-site/static/js/runtime-main.004a0bd9.js.map",
     "static/css/8.753fe910.chunk.css": "/react-resume-site/static/css/8.753fe910.chunk.css",
@@ -263,6 +263,6 @@
     "static/css/8.753fe910.chunk.css",
     "static/js/8.e57601b3.chunk.js",
     "static/css/main.ea5025ba.chunk.css",
-    "static/js/main.e36cd1fa.chunk.js"
+    "static/js/main.76761745.chunk.js"
   ]
 }
