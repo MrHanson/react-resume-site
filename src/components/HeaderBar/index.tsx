@@ -36,7 +36,7 @@ const HeaderBar = () => {
     };
   };
 
-  const exportMdFile = (fileName: string = "web前端开发 梁智恒Hanson") => {
+  const exportMdFile = (fileName: string = "前端开发 梁智恒Hanson") => {
     const file = new Blob([templateStore.mdContent]);
     const url = URL.createObjectURL(file);
     downloadDirect(url, `${fileName}.md`);

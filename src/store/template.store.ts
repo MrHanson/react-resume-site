@@ -1,11 +1,11 @@
 import { makeAutoObservable } from "mobx";
-import { INIT_COLOR, INIT_CONTENT, LOCAL_STORE } from '@utils/const';
+import { INIT_COLOR, INIT_MD_CONTENT, LOCAL_STORE } from '@utils/const';
 
 const localContent = localStorage.getItem(LOCAL_STORE.MD_RESUME);
 
 class TemplateStore {
 	color = INIT_COLOR;
-	mdContent = localContent || INIT_CONTENT;
+	mdContent = localContent || INIT_MD_CONTENT;
 	html = '';
 
 	constructor() {

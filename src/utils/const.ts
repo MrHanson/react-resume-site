@@ -12,67 +12,63 @@ document.body.style.setProperty("--bg", INIT_COLOR);
 
 export const UPDATE_LOG_VERSION = 1;
 
-export const INIT_CONTENT = `
-# Hanson
+export const INIT_MD_CONTENT = `
+# 梁智恒 Hanson
 
-chihanghanson@gmail.com
+086-13178822744 | chihanghanson@gmail.com
 
 https://github.com/mrhanson
 
 ## 工作经历
 
-### xxx科技有限公司
+### 广州棒谷科技有限公司（2019.06-2020.03）
 
-\`工程化\` \`基建搭建\` \`Vue\`
+\`工程化\` \`Vue\` \`Node.js\` \`OA\`
 
-前端工程师 OA研发 公共平台
+**前端工程师** OA研发 公共平台
 
 #### 公共项目模板Vue-boilerplate
 
-- 编写函数式弹窗组件，状态自管理，解决模板臃肿的问题
-- 编写浮点数运算函数，应对js精度丢失的问题
-- 通过修改vue-loader的innerHTML配置，配合xss工具库，增加v-html指令的xss处理
-- 使用webpack dll插件对常用依赖进行分包处理，提升构建速度
-- 为构建模板加入cdn地址的dns预解析（dns-prefetch）和请求api的预链接（preconnect），减少白屏时间
+- 根据业务需求对element-ui进行二次封装，并完善其文档。
+- 参与通用工具方法的编写，及其单元测试
+- 参与webpack项目构建的优化，通过dll分包提升构建速度
 
-### xxx科技有限公司 （2020.03-至今）
+#### erp站点前端业务开发
 
-\`微信小程序\` \`业务开发\` \`Vue\` \`uni-app\`
+- 参与财务组Node.js请求转发网关的维护
+- 负责财务，KPI绩效，日程等多个前端项目的业务开发
 
-前端工程师 产品与研发部
+### 深圳思为科技有限公司 （2020.03-2020.05）
 
-#### SaaS平台
+\`微信小程序\` \`Vue\` \`uni-app\` \`房地产业务\`
 
-- 小程序经纪人注册页面的动态表单渲染
-- 小程序楼盘详情全屏轮播动效实现
+**前端工程师** 产品与研发部
 
-#### xxx项目
+#### 标准营销云2.0
 
-- 小程序tabarbar组件编写，替换原生tabbar，解决指引蒙层无法全屏覆盖的问题
-- h5活动页奖品长列表虚拟滚动化，优化因dom过多页面卡顿的问题
-- pc web递归菜单组件实现
+- 负责经纪人模块的前端业务开发。参与小程序经纪人注册、角色变更，佣金单，等多个需求的开发，以及线上问题的响应
+
+#### 中铁生态城文旅项目
+
+- 主要负责中铁生态城微信小程序端的前端开发。
+   - h5活动页奖品长列表虚拟滚动化，优化因dom过多页面卡顿的问题
+   - h5营销活动抽奖轮盘实现
+   - 小程序客户描摹动态表单渲染
+   - 小程序tabarbar组件编写，替换原生tabbar，解决指引蒙层无法全屏覆盖的问题
+- 参与pc web递归菜单组件实现，数据概览图表开发
 
 ## 个人项目
 
 ### http 请求库 Fexios
-
 \`Fetch\` \`Typescript\` 
 https://github.com/MrHanson/fexios
-
 - 使用Typescript编写的浏览器端请求库，底层依赖Fetch
 - 与Axios相似的api，支持请求超时设置，拦截器
 
-### 页面布局组件 React-listview
-
-\`React\` \`Typescript\`
-https://github.com/MrHanson/react-listview
-
-- 基于Ant-design的列表页组件，通过json schema快速生成列表页界面
-- 支持api请求及拦截，分页功能，告别繁琐的CRUD
-
 ## 教育经历
+
 :::left
-xxx大学
+北京理工大学珠海学院
 
 软件工程 本科
 :::
