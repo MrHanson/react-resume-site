@@ -22,8 +22,9 @@ https://github.com/mrhanson
 ## 技术栈
 
 - 框架：Vue.js, Uni-app, React.js, Koa.js
-- 库：Element UI, Ant Design, Day.js, lodash ...
+- 库：Element UI, Ant Design, Axios, Day.js, lodash ...
 - 工具：Webpack, Rollup, Parcel, Mock.js
+- 数据库：MySQL, MongoDB
 - 测试&部署: Jest, Travis CI, Puppeteer
 
 ## 工作经历
