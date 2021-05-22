@@ -19,6 +19,13 @@ export const INIT_MD_CONTENT = `
 
 https://github.com/mrhanson
 
+## 技术栈
+
+- 框架：Vue.js, Uni-app, React.js, Koa.js
+- 库：Element UI, Ant Design, Day.js, lodash ...
+- 工具：Webpack, Rollup, Parcel, Mock.js
+- 测试&部署: Jest, Travis CI, Puppeteer
+
 ## 工作经历
 
 ### 广州棒谷科技有限公司（2019.06-2020.03）
@@ -32,6 +39,7 @@ https://github.com/mrhanson
 - 根据业务需求对element-ui进行二次封装，并完善其文档。
 - 参与通用工具方法的编写，及其单元测试
 - 参与webpack项目构建的优化，通过dll分包提升构建速度
+- 使用Mock.js在dev-server模拟后端接口数据
 
 #### erp站点前端业务开发
 
@@ -56,14 +64,6 @@ https://github.com/mrhanson
    - 小程序客户描摹动态表单渲染
    - 小程序tabarbar组件编写，替换原生tabbar，解决指引蒙层无法全屏覆盖的问题
 - 参与pc web递归菜单组件实现，数据概览图表开发
-
-## 个人项目
-
-### http 请求库 Fexios
-\`Fetch\` \`Typescript\` 
-https://github.com/MrHanson/fexios
-- 使用Typescript编写的浏览器端请求库，底层依赖Fetch
-- 与Axios相似的api，支持请求超时设置，拦截器
 
 ## 教育经历
 
