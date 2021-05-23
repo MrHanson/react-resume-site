@@ -21,7 +21,7 @@ https://github.com/mrhanson
 
 ## 技术栈
 
-- 框架：Vue.js, Uni-app, React.js, Koa.js
+- 框架：Vue.js, React.js, Koa.js
 - 库：Element UI, Ant Design, Axios, Day.js, lodash ...
 - 工具：Webpack, Rollup, Parcel, Mock.js
 - 数据库：MySQL, MongoDB
@@ -47,7 +47,7 @@ https://github.com/mrhanson
 - 参与财务组Node.js请求转发网关的维护
 - 负责财务，KPI绩效，日程等多个前端项目的业务开发
 
-### 深圳思为科技有限公司 （2020.03-2020.05）
+### 深圳思为科技有限公司 （2020.03-2021.05）
 
 \`微信小程序\` \`Vue\` \`uni-app\` \`房地产业务\`
 
