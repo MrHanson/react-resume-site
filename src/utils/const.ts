@@ -24,7 +24,6 @@ https://github.com/mrhanson
 - 框架：Vue.js, React.js, Koa.js
 - 库：Element UI, Ant Design, Axios, Day.js, lodash ...
 - 工具：Webpack, Rollup, Parcel, Mock.js
-- 数据库：MySQL, MongoDB
 - 测试&部署: Jest, Travis CI, Puppeteer
 
 ## 工作经历
@@ -44,8 +43,7 @@ https://github.com/mrhanson
 
 #### erp站点前端业务开发
 
-- 参与财务组Node.js请求转发网关的维护
-- 负责财务，KPI绩效，日程等多个前端项目的业务开发
+- 负责财务，KPI绩效，日程，考勤等多个前端项目的业务开发
 
 ### 深圳思为科技有限公司 （2020.03-2021.05）
 
